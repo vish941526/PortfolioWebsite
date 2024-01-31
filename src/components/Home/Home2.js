@@ -10,6 +10,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import './Home2.css'
+import ContactUs from "../contact/ContactUs";
 
 function Home2() {
   return (
@@ -120,6 +121,7 @@ function Home2() {
             </li>
             </ul>
           </Col>
+            <ContactUs/>
         </Row>
       </Container>
     </Container>
